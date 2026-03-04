@@ -1,0 +1,48 @@
+a {
+color: #973163 ;
+text-decoration:none;
+}
+
+marquee {
+	font-family:Segoe Script;
+}
+
+h1{
+	color:#7e1f4e;
+	font-family:Modern;
+	font-style:Oblique;
+}
+h2.name{
+	color:#7e1f4e;
+	font-family:HoloLens MDL2 Assets;
+	font-style:italic;
+	font-size:40px;
+}
+
+h2.main{
+	color:#7e1f4e;
+}
+
+a:hover{
+	color:#6c3656;
+}
+
+u{
+font-size:20px;
+}
+
+.buycart {
+  background-color: #7e1f4e;
+  color: white;
+  padding: 10px; /* equal padding all around */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 600px; /* make both buttons same width */
+  text-align: center;
+  font-weight: bold;
+}
+body{
+	background-color:yellow;
+}

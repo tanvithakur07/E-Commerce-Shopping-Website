@@ -1,0 +1,27 @@
+a {
+color: #973163 ;
+text-decoration:none;
+}
+
+marquee {
+	font-family:Segoe Script;
+	color:pink;
+}
+
+h1{
+	color:#7e1f4e ;
+	font-family:Modern;
+	font-style:Oblique;
+}
+h2{
+	color:#7e1f4e;
+}
+
+img.i1{
+	border-radius:5%;
+}
+
+a:hover{
+	color:#6c3656;
+}
+

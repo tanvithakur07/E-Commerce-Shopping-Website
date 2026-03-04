@@ -1,0 +1,54 @@
+<html>
+<head>
+<script>
+/* ADD CELL AFTER PRESSING ADD TO CART */
+function addtocart(productName, productPrice) {
+    console.log(productName + ', ' + productPrice);
+    // Get the table body where cart items will be added
+    var cartTableBody = document.querySelector('.shopping-cart');
+    console.log(cartTableBody)
+
+    // Create a new row for the cart item
+    var newRow = cartTableBody.insertRow();
+    console.log(newRow)
+    
+    // Create cells for product name and price
+    var productNameCell = newRow.insertCell(0);
+    var productPriceCell = newRow.insertCell(1);
+    
+    // Set the content of the cells
+    productNameCell.textContent = productName;
+    productPriceCell.textContent = '$' + productPrice.toFixed(2);
+</script>
+</head>
+<body>
+<table class="cart" border="1">
+<tr>
+<th style="width: 40px;"></th>
+<th style="width: 90px;"></th>
+<th style="width: 500px;">Product</th>
+<th style="width: 90px;">Price</th>
+<th style="width: 160px;">Quantity</th>
+
+</tr>
+<tr>
+<td class="cross">
+<div class="circle" onclick="deleterow">&times;</div>
+</td>
+<td class="image-cell">
+                            <img src="C:\Users\Vandana IT Courses\Desktop\rare beauty\images\makeup\lip_colour/happy.webp"height="150" width="150">
+                        </td>
+                        <td>Soft Pinch Tinted lip_oil</td>
+                        <td>Rs. 1,750</td>
+                        <td>
+                            <div class="quantity">
+                                <button class="minus">-</button><input type="text" class="number" value="1" min="1"><button class="plus">+</button>
+                            </div>
+                        </td>
+					</tr>
+
+
+
+</table>
+</body>
+</html>
