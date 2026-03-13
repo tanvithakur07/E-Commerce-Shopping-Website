@@ -1,0 +1,261 @@
+a {
+color: #973163 ;
+text-decoration:none;
+}
+
+marquee {
+	font-family:Segoe Script;
+	color:pink;
+}
+
+h1{
+	color:#7e1f4e ;
+	font-family:Modern;
+	font-style:Oblique;
+}
+h2{
+	color:#7e1f4e;
+}
+
+img.i1{
+	border-radius:5%;
+}
+
+a:hover{
+	color:#6c3656;
+}
+
+/* Banner default (desktop) */
+.banner-img{
+width:100%;
+height:auto;
+display:block;
+margin:auto;
+}
+
+/* PHONE VIEW ONLY */
+@media screen and (max-width:768px){
+
+.banner-img{
+width:100% !important;
+max-height:140px !important;   /* makes banner smaller */
+object-fit:cover;              /* keeps landscape crop */
+}
+
+}
+/* ================= PHONE RESPONSIVE ================= */
+
+/* ================= PHONE RESPONSIVE ================= */
+
+@media screen and (max-width:768px){
+
+/* HEADER */
+
+.header{
+width:100%;
+}
+
+.header tr{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.header img{
+width:60px !important;
+height:auto !important;
+}
+
+h1{
+font-size:28px !important;
+margin:0;
+}
+
+/* BANNER */
+
+.banner-img{
+width:100% !important;
+max-height:140px;
+object-fit:cover;
+}
+
+/* LOGIN BUTTONS */
+
+a[style*="background-color"]{
+display:block;
+width:80%;
+margin:auto;
+padding:5px;
+text-align:center;
+}
+
+/* NAV MENU */
+
+h2{
+font-size:18px;
+line-height:1.6;
+text-align:center;
+}
+
+/* PRODUCTS GRID */
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+}
+
+/* product boxes */
+
+.polaroid1,
+.polaroid2,
+.polaroid3,
+.polaroid4,
+.polaroid5,
+.polaroid6{
+
+width:48% !important;
+float:none !important;
+margin-bottom:20px;
+box-sizing:border-box;
+
+}
+
+/* product images */
+
+.polaroid1 img,
+.polaroid2 img,
+.polaroid3 img,
+.polaroid4 img,
+.polaroid5 img,
+.polaroid6 img{
+
+width:100%;
+height:auto;
+
+}
+
+
+/* ACCOUNT BUTTONS */
+
+div[style*="position: fixed"]{
+right:10px !important;
+}
+
+}
+
+/* ================= IMAGES PAGE PHONE VIEW ================= */
+
+@media screen and (max-width:768px){
+
+/* make image tables fit phone width */
+
+table{
+width:100%;
+}
+
+/* resize images */
+
+table img{
+width:80% !important;
+height:auto !important;
+margin:5px;
+}
+
+/* center images */
+
+td{
+text-align:center;
+}
+
+}
+
+/* ================= VIDEO PAGE PHONE VIEW ================= */
+
+@media screen and (max-width:768px){
+
+video{
+width:90% !important;
+height:auto !important;
+}
+
+}
+
+/* ================= REVIEW PAGE PHONE VIEW ================= */
+
+@media screen and (max-width:768px){
+
+.review-table{
+width:100%;
+}
+
+.review-table tr{
+display:block;
+}
+
+.review-table td{
+display:block;
+width:100%;
+margin-bottom:25px;
+text-align:center;
+}
+
+/* review images */
+
+.review-table td img{
+width:85% !important;
+height:auto !important;
+}
+
+}
+
+/* ================= ABOUT PAGE PHONE VIEW ================= */
+
+@media screen and (max-width:768px){
+
+/* text */
+
+p{
+font-size:16px;
+padding:0 15px;
+}
+
+/* selena images only */
+
+body > img{
+max-width:90% !important;
+height:auto !important;
+margin-bottom:20px;
+}
+
+/* about table only */
+
+.about-table{
+width:100%;
+}
+
+.about-table tr{
+display:block;
+margin-bottom:30px;
+}
+
+.about-table td{
+display:block;
+width:100%;
+text-align:center;
+}
+
+.about-table td img{
+width:80% !important;
+height:auto !important;
+margin-bottom:10px;
+}
+
+/* headings */
+
+h3{
+font-size:18px;
+padding:0 10px;
+}
+
+}

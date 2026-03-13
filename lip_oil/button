@@ -1,0 +1,12 @@
+.buycart {
+  background-color: #7e1f4e;
+  color: white;
+  padding: 10px; /* equal padding all around */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: 600px; /* make both buttons same width */
+  text-align: center;
+  font-weight: bold;
+}

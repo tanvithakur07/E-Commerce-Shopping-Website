@@ -1,0 +1,114 @@
+a {
+color: #973163 ;
+text-decoration:none;
+}
+
+marquee {
+	font-family:Segoe Script;
+}
+
+h1{
+	color:#7e1f4e;
+	font-family:Modern;
+	font-style:Oblique;
+}
+h2.name{
+	color:#7e1f4e;
+	font-family:HoloLens MDL2 Assets;
+	font-style:italic;
+	font-size:40px;
+}
+
+h2.main{
+	color:#7e1f4e;
+}
+
+a:hover{
+	color:#6c3656;
+}
+
+u{
+font-size:20px;
+}
+
+/* ================= MOBILE VIEW ================= */
+
+@media screen and (max-width:768px){
+
+/* HEADER */
+
+.header{
+width:100%;
+}
+
+.header tr{
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.header img{
+width:60px !important;
+height:auto !important;
+}
+
+h1{
+font-size:28px !important;
+margin:0;
+}
+
+/* NAV MENU */
+
+h2{
+font-size:18px;
+line-height:1.6;
+text-align:center;
+}
+
+/* ================= PRODUCT PAGE ================= */
+
+.product-table{
+width:100%;
+}
+
+.product-table tr{
+display:flex;
+flex-direction:column;
+}
+
+/* move image first */
+
+.product-table td:last-child{
+order:-1;
+}
+
+.product-table td{
+width:100%;
+text-align:center;
+padding:10px;
+}
+
+/* product image */
+
+.product-table td img[height="600"]{
+width:70% !important;
+height:auto !important;
+margin-bottom:20px;
+}
+
+/* shade images */
+
+.product-table td img[width="40"]{
+width:35px !important;
+height:auto !important;
+margin:5px;
+}
+
+/* buttons */
+
+.buycart{
+width:90% !important;
+max-width:300px;
+}
+
+}
